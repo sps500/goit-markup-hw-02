@@ -4,6 +4,9 @@ body {
   background: #fff;
   color: #434455;
 }
+ul {
+  list-style-type: none;
+}
 header {
   font-weight: 700;
 }
@@ -25,11 +28,6 @@ header {
 
 /* Link Text */
 a {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
   text-decoration-line: none;
 }
 a:focus {
@@ -42,7 +40,7 @@ a:hover {
 
 /* logo_web */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   background: #fff;
   font-weight: 700;
   font-size: 18px;
@@ -59,7 +57,13 @@ a:hover {
   text-transform: uppercase;
 }
 .address-style {
-  font-style: normal;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
 }
 
 /* section */

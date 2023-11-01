@@ -40,7 +40,7 @@ a:hover {
 
 /* logo_web */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   background: #fff;
   font-weight: 700;
   font-size: 18px;
@@ -64,6 +64,7 @@ a:hover {
   line-height: normal;
   letter-spacing: 0.03em;
   text-transform: lowercase;
+  font-style: normal;
 }
 
 /* section */

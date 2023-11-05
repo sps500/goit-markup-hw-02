@@ -59,10 +59,10 @@ a:hover {
 .address-style {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: lowercase;
   font-style: normal;
 }
